@@ -34,7 +34,7 @@ jobs:
           cache-dependency-path: ".github/tests/pnpm-lock.yaml"
       - name: Get installed Playwright version
         id: playwright-version
-        run: echo "PLAYWRIGHT_VERSION=$(node -e "console.log(require('./.github/tests/package-lock.json').dependencies['@playwright/test'].version)")" >> $GITHUB_ENV
+        run: echo "PLAYWRIGHT_VERSION=$(node -e "console.log(require('./.github/tests/package.json').devDependencies['@playwright/test'].version)")" >> $GITHUB_ENV
       - name: Cache playwright binaries
         uses: actions/cache@v3
         id: playwright-cache
@@ -53,6 +53,13 @@ jobs:
       - name: Install Playwright Browsers
         run: "cd .github/tests && pnpx playwright install --with-deps && pnpx playwright install-deps"
         if: steps.playwright-cache.outputs.cache-hit != 'true'
+
+      - uses: actions/cache/save@v3
+        if: always() // or any other condition to invoke the save action
+        with:
+          path: |
+            ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
 
       - name: Run tests
         id: run-tests
