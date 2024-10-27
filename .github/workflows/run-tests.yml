@@ -55,7 +55,7 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
 
       - uses: actions/cache/save@v3
-        if: always()
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
         with:
           path: |
             ~/.cache/ms-playwright
