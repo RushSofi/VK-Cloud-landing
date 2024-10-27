@@ -74,7 +74,7 @@ jobs:
             if (context.payload?.pull_request?.sender?.type !== 'Bot') {
               await github.rest.issues.createComment({
                 issue_number: context.payload.number,
-                owner: context.payload.repository.owner,
+                owner: 'polis-vk',
                 repo: context.payload.repository.repo,
                 body: ("${{steps.run-tests.outcome}}" === "success" && "${{steps.run-lint.outcome}}" === "success" ? "✅ Тесты проходят ✅" : "‼️ Тесты не проходят ‼️\nЕсли это ошибка линтера вы можете посмотреть ошибки во вкладке \"Files changed\" наверху страницы.") +
                 `\n[Результат запуска тестов](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})`
