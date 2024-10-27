@@ -19,6 +19,12 @@ export default [
       "@html-eslint/lowercase": "error",
       "@html-eslint/no-extra-spacing-attrs": "off",
       "@html-eslint/require-closing-tags": "off",
+      "@html-eslint/element-newline": [
+        "error",
+        {
+          skip: ["p"],
+        },
+      ],
       // "@html-eslint/no-multiple-empty-lines": "error", // to much for not having pre commit actions..
       // "@html-eslint/no-trailing-spaces": "error",
     },
