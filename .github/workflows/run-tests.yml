@@ -60,7 +60,7 @@ jobs:
         with:
           script: |
             console.log(context)
-            if (context.pull_request.sender.type !== 'Bot') {
+            if (context.payload?.pull_request?.sender?.type !== 'Bot') {
               await github.rest.issues.createComment({
                 issue_number: context.number,
                 owner: context.repository.owner,
