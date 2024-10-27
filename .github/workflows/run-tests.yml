@@ -60,7 +60,7 @@ jobs:
         with:
           script: |
             console.log(context)
-            if (context.sender.name !== 'github-classroom[bot]') {
+            if (context.sender.type !== 'Bot') {
               await github.rest.issues.createComment({
                 issue_number: context.number,
                 owner: context.repository.owner,
