@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
+    "test": "playwright test && cd ../../ && node .github/tests/additional_lint.js",
     "lint": "concurrently --raw -G -- pnpm:lint:*",
     "lint:eslint": "cd ../../ && eslint -c .github/tests/eslint.config.js",
     "lint:stylelint": "stylelint ../../*.css",
