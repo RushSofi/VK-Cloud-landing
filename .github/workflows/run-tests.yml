@@ -34,7 +34,7 @@ jobs:
           cache-dependency-path: ".github/tests/pnpm-lock.yaml"
       - name: Get installed Playwright version
         id: playwright-version
-        run: echo "PLAYWRIGHT_VERSION=$(node -e "console.log(require('./.github/tests/package.json').devDependencies['@playwright/test'].version)")" >> $GITHUB_ENV
+        run: echo "PLAYWRIGHT_VERSION=$(node -e "console.log(require('./.github/tests/package.json').devDependencies['@playwright/test'])")" >> $GITHUB_ENV
       - name: Cache playwright binaries
         uses: actions/cache@v3
         id: playwright-cache
