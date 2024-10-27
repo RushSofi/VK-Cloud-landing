@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "lint": "concurrently pnpm:lint:*",
+    "lint": "concurrently --raw -G -- pnpm:lint:*",
     "lint:eslint": "cd ../../ && eslint -c .github/tests/eslint.config.js",
     "lint:stylelint": "stylelint ../../*.css",
     "start": "serve ../../ -l 3000 --no-port-switching"

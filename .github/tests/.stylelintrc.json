@@ -7,6 +7,7 @@
   "rules": {
     "selector-class-pattern": null,
     "custom-property-pattern": null,
+    "media-feature-range-notation": null,
     "plugin/selector-bem-pattern": {
       "componentName": "[A-Z]+",
       "componentSelectors": {
@@ -18,7 +19,10 @@
     "plugin/no-unsupported-browser-features": [
       true,
       {
-        "browsers": ["defaults and fully supports es6-module"],
+        "browsers": [
+          "defaults and fully supports es6-module",
+          "not and_qq > 0"
+        ],
         "ignore": ["rem"],
         "ignorePartialSupport": true
       }
