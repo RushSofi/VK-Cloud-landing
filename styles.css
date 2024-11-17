@@ -1621,7 +1621,6 @@ footer {
 
 
 @media (max-width: 376px) {
-
     header {
         width: 376px;
         height: 790px;
@@ -1665,6 +1664,20 @@ footer {
         height: 20px;
     }
 
+    .header_enter img {
+        display: none;
+    }
+
+    .banner-image img {
+        width: 304px;
+        height: 260px;
+    }
+
+    .card_illustration img {
+        width: 328px;
+        height: 245px;
+    }
+
     .header_logo img:nth-of-type(2) { 
         display: none;
     }
@@ -1684,10 +1697,6 @@ footer {
         background-color: transparent;
         transition: none;
         padding: 0;
-    }
-
-    .header_enter img {
-        display: none;
     }
     
     .header_enter::after {
@@ -1769,11 +1778,6 @@ footer {
         margin: 0px;
     }
 
-    .banner-image img {
-        width: 304px;
-        height: 260px;
-    }
-
     #migration {
         width: 376px;
         height: 976px;
@@ -1784,6 +1788,15 @@ footer {
         flex-direction: column;
         gap: 24px;
     }
+
+    .products_title p {
+        width: 300px;
+        height: 119px;
+        font-size: 17px;
+        line-height: 23.8px;
+        margin-left: 38px;
+        text-align: center;
+    }
     
     #migration p {
         width: 344px;
@@ -1792,6 +1805,15 @@ footer {
         text-align: center;
     }
     
+    .products_title h2 {
+        width: 212px;
+        height: 46px;
+        font-size: 42px;
+        line-height: 46.2px;
+        margin-left: 82px;
+        text-align: center;
+    }
+
     #migration h2 {
         font-size: 32px;
         line-height: 35.2px;
@@ -1957,11 +1979,6 @@ footer {
         padding: 8px 8px 0;
     }
 
-    .card_illustration img {
-        width: 328px;
-        height: 245px;
-    }
-
     .spacing {
         width: 376px;
         height: 72px;
@@ -1978,24 +1995,6 @@ footer {
         height: 189px;
         margin-left: 0;
         gap: 24px;
-    }
-    
-    .products_title h2 {
-        width: 212px;
-        height: 46px;
-        font-size: 42px;
-        line-height: 46.2px;
-        margin-left: 82px;
-        text-align: center;
-    }
-    
-    .products_title p {
-        width: 300px;
-        height: 119px;
-        font-size: 17px;
-        line-height: 23.8px;
-        margin-left: 38px;
-        text-align: center;
     }
     
     .products_container {
