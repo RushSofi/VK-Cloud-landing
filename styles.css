@@ -736,6 +736,27 @@ li::marker {
     transition: 0.5s;
 }
 
+.card1_front {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+.card1_back {
+    position: absolute;
+    display: flex;
+    background-color: #FFF;
+    border: none;
+    border-radius: 24px;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
 .inter_card2:hover .card1_front {
     transform: rotateX(-180deg);
 }
@@ -851,16 +872,6 @@ li::marker {
     transition: 0.5s;
 }
 
-.card1_front {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: 0.5s;
-}
-
 .card1_2 {
     display: flex;
     width: 432px;
@@ -876,17 +887,6 @@ li::marker {
 
 .inter_card1:hover .card1_back {
     transform: rotateX(0deg);
-}
-
-.card1_back {
-    position: absolute;
-    display: flex;
-    background-color: #FFF;
-    border: none;
-    border-radius: 24px;
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
 }
 
 .card1_container {
@@ -1398,6 +1398,13 @@ footer {
     border: 1px solid #07F;
 }
 
+.textblock_footer2 span {
+    font-size: 17px;
+    line-height: 25.5px;
+    color: #7C8A9A;
+    font-weight: 400;
+}
+
 .bonus_btn:hover span {
     color: #07F;
 }
@@ -1610,13 +1617,6 @@ footer {
     width: 1240px;
     height: 26px;
     gap: 48px;
-}
-
-.textblock_footer2 span {
-    font-size: 17px;
-    line-height: 25.5px;
-    color: #7C8A9A;
-    font-weight: 400;
 }
 
 
