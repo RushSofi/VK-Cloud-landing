@@ -1,29 +1,422 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <title>HW2</title>
     </head>
     <body>
         <div id="root">
-            <header></header>
+            <header>
+                <div class="header_comp">
+                    <div class="header_menu">
+                        <div class="header_container">
+                            <div class="header_level">
+                                <div class="header_logo">
+                                    <image src="res/logo.png" alt="VK logo"/>
+                                    <image src="res/VK Cloud.svg" alt="VK Cloud"/>
+                                </div>
+                                <div class="header_buttons">
+                                    <button class="header_enter">
+                                        <image src="res/door_arrow_left_outline_24.svg" alt="Enter icon" width="20px" height="20px"/>
+                                        Вход
+                                    </button>
+                                    <button class="header_register">
+                                        Регистрация
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <section class="main-banner">
+                        <div class="container">
+                            <div class="banner-content">
+                                <h1>VK Cloud</h1>
+                                <p>Платформа с широким набором облачных сервисов для эффективной разработки и работы с данными для компаний любого масштаба</p>
+                            </div>
+                            <button class="test-btn">Протестировать</button>
+                        </div>
+                        <div class="banner-image">
+                            <img src="res/cube.png" alt="VK Cloud Cube">
+                        </div> 
+                    </section>
+                </div>       
+            </header>
             <main>
-                <section id="migration"></section>
-
-                <section id="products"></section>
-
-                <section id="reliability"></section>
-
-                <div class="running_string">
-                    <img src="res/pattern.svg" alt="pattern" />
-                    <span>300 репозиториев открытого кода</span>
-                    <img src="res/pattern.svg" alt="pattern" />
-                    <span>20000 компаний используют технологии и</span>
+                <section id="migration">
+                    <div class="migration_text">
+                        <h2>Бесплатная миграция в облако VK Cloud</h2>
+                        <p>До 10 апреля покажите чек об оплате сервисов Microsoft Azure, AWS или Google Cloud за февраль 2024 года и без бумажной волокиты получите x2 бонусных рублей для комфортного перехода на VK Cloud.</p>
+                    </div>
+                    <div class="card">
+                         <div class="card_text">
+                            <div class="card_header">
+                                <div class="head_container">
+                                    <div class="reliable">
+                                        <span>Надежно</span>
+                                    </div>
+                                    <div class="fast">
+                                        <span>Быстро</span>
+                                    </div>
+                                    <div class="free">
+                                        <span>Бесплатно</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_head_section">
+                                <div class="head_text">
+                                    <span>Бесплатно в рамках акции:</span>
+                                </div>
+                            </div>
+                            <div class="card_list_section">
+                                <ul>
+                                    <div class="list1">
+                                        <li>Миграция Lift & Shift</li>
+                                    </div>
+                                    <div class="list2">
+                                        <li>Лицензии на ПО для миграции и инфраструктура, необходимая для работы агента</li>
+                                    </div>
+                                    <div class="list3">
+                                        <li>Консалтинг команды инженеров Professional Services — для сложной миграции и любых ИТ-вопросов</li>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="card_footer">
+                                <div class="foot_buttons">
+                                    <button class="leave-btn">
+                                        <div class="leave_text">
+                                            Оставить заявку
+                                        </div>
+                                    </button>
+                                    <button class="full-btn">
+                                        <div class="full_text">
+                                            Полные условия акции
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="card_illustration">
+                            <img src="res/illustration.png" alt="illustration">
+                         </div>
+                    </div>
+                </section>
+                <div class="spacing"></div>
+                <section id="products">
+                    <div class="products_title">
+                        <h2>Продукты</h2>
+                        <p>Сокращайте затраты времени и ресурсов с помощью использования набора готовых решений, протестированных в тысячах проектов</p>
+                    </div>
+                    <div class="products_container">
+                        <div class="servers">
+                            <div class="server_picture">
+                                <img src="res/illustration.svg" alt="server illustration">
+                            </div>
+                            <div class="server_text">
+                                <div class="server_header">
+                                    <h3>Виртуальные <br>серверы</h3>
+                                    <div class="icon">
+                                        <img src="res/product1.svg" alt="product1">
+                                    </div>
+                                </div>
+                                <div class="server_body">
+                                    <p>Вычислительные ресурсы <br>в облаке для высокой доступности цифровых сервисов любой сложности</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nets">
+                            <div class="net_header">
+                                <h3>Виртуальные сети</h3>
+                                <div class="icon2">
+                                    <img src="res/product2.svg" alt="product2">
+                                </div>
+                            </div>
+                            <div class="net_body">
+                                <p>Объединение серверов <br>в локальных сетях, Public <br>и Private DNS, VPN, распределение нагрузки и фильтрация трафика</p>
+                            </div>
+                        </div>
+                        <div class="storage">
+                            <div class="storage_header">
+                                <h3>Объектное хранилище</h3>
+                                <div class="icon2">
+                                    <img src="res/product3.svg" alt="product3">
+                                </div>
+                            </div>
+                            <div class="stor_body">
+                                <p>Неограниченное хранение и передача данных по S3 API. Обработка тысяч запросов в секунду</p>
+                            </div>
+                        </div>
+                        <button class="show-btn">
+                            <div class="show_text">
+                                Показать ещё
+                            </div>
+                        </button>
+                    </div>
+                </section>
+                <div class="spacing"></div>
+                <section id="reliability">
+                    <div class="rel_container">
+                        <h2>Надежность VK Cloud</h2>
+                        <div class="rel_cards">
+                            <div class="card1_1">
+                                <div class="vk_logo">
+                                    <img src="res/VK Logo.svg" alt="vk logo">
+                                </div>
+                                <h3>На базе OpenSource и российского ПО</h3>
+                            </div>
+                            <div class="inter_card2">
+                                <div class="card1_front">
+                                    <div class="card2_1">
+                                        <div class="icon2_1">
+                                            <img src="res/grid_layout_outline_28.svg" alt="grid_layout_outline_28">
+                                        </div>
+                                        <p>Единая отказоустойчивая архитектура с резервированием</p>
+                                    </div>
+                                    <div class="card3_1">
+                                        <div class="icon2_1">
+                                            <img src="res/arrow_pop_up_outline_28.svg" alt="arrow_pop_up_outline_28">
+                                        </div>
+                                        <p>Простое масштабирование инфраструктуры</p>
+                                    </div>
+                                </div>
+                                <div class="card1_back">
+                                    <div class="card3_container">
+                                        <div class="card2_left">
+                                            <div class="card1_icon">
+                                                <img src="res/Icon.svg" alt="icon">
+                                            </div>
+                                            <div class="card2_text">
+                                                <h3>Бэкапы <br>по расписанию</h3>
+                                                <div class="cluster2">
+                                                    <div class="conv_set">
+                                                        <span>Удобная настройка</span>
+                                                    </div>
+                                                    <div class="economy">
+                                                        <span>Экономия</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card2_right">
+                                            <div class="picture3">
+                                                <img src="res/picture3.svg" alt="picture3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inter_card1">
+                                <div class="card1_front">
+                                    <div class="card1_2">
+                                        <div class="icon2_1">
+                                            <img src="res/notebook_check_outline_28.svg" alt="notebook_check_outline_28">
+                                        </div>
+                                        <p>Аттестация облачных серверов <br>в соответствии с 152-ФЗ</p>
+                                    </div>
+                                    <div class="card2_2">
+                                        <div class="icon2_1">
+                                            <img src="res/arrow_up_circle_outline_28.svg" alt="arrow_up_circle_outline_28">
+                                        </div>
+                                        <p>Послеаварийное  восстановление</p>
+                                    </div>
+                                </div>
+                                <div class="card1_back">
+                                    <div class="card1_container">
+                                        <div class="card1_left">
+                                            <div class="card1_icon">
+                                                <img src="res/Icon.svg" alt="icon">
+                                            </div>
+                                            <div class="card1_text">
+                                                <h3>Сертификаты и лицензии</h3>
+                                                <div class="cluster">
+                                                    <div class="iso">
+                                                        <span>ISO</span>
+                                                    </div>
+                                                    <div class="pci">
+                                                        <span>PCI DSS</span>
+                                                    </div>
+                                                    <div class="gost">
+                                                        <span>ГОСТ Р 57580</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card1_right">
+                                            <div class="licenses">
+                                                <div class="license1">
+                                                    <img src="res/image 37.svg" alt="license1">
+                                                </div>
+                                                <div class="license2">
+                                                    <img src="res/image 38.svg" alt="license2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card3_2">
+                                <div class="card34_2_text">
+                                    <h3>SLA 99,9%</h3>
+                                    <p>C финансовыми гарантиями</p>
+                                </div>
+                            </div>
+                            <div class="card4_2">
+                                <div class="card34_2_text">
+                                    <h3>24/7</h3>
+                                    <p>Ваша «IT-служба одного окна»</p>
+                                </div>
+                            </div>
+                            <div class="card1_3">
+                                <div class="card12_3_text">
+                                    <h3>ЦОДы</h3>
+                                    <p>Tier III, ФЗ-152, расположение в РФ</p>
+                                </div>
+                            </div>
+                            <div class="card2_3">
+                                <div class="card12_3_text">
+                                    <h3>IaaS/PaaS</h3>
+                                    <p>Простое подключение сервисов</p>
+                                </div>
+                            </div>
+                            <div class="inter_card3">
+                                <div class="card1_front">
+                                    <div class="card3_3">
+                                        <div class="card3_3_text">
+                                            <h3>Обучение и поддержка</h3>
+                                            <p>Обучение вашей команды <br>и экспертная поддержка</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card1_back">
+                                    <div class="card3_container">
+                                        <div class="card3_icon">
+                                            <img src="res/Icon.svg" alt="icon">
+                                        </div>
+                                        <h3>Бесплатный тьюториал Cloud Native DIY</h3>
+                                        <div class="card3_right">
+                                            <div class="pictures">
+                                                <div class="picture1">
+                                                    <img src="res/Card.svg" alt="picture1">
+                                                </div>
+                                                <div class="picture2">
+                                                    <img src="res/illustration_line_vk cloud.svg" alt="picture2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="test_btn">
+                            Протестировать
+                        </button>
+                    </div>
+                </section>
+                <div class="spacing2"></div>
+                <div class="visible_string">
+                    <div class="running_string">
+                        <img src="res/pattern.svg" alt="pattern" />
+                        <span>3500 разработчиков</span>
+                        <img src="res/pattern.svg" alt="pattern" />
+                        <span>300 репозиториев открытого кода</span>
+                        <img src="res/pattern.svg" alt="pattern" />
+                        <span>20000 компаний используют технологии и цифровые решения VK</span>
+                    </div>
                 </div>
             </main>
-            <footer></footer>
+            <footer>
+                <div class="footer_container">
+                    <div class="footer_textblock">
+                        <div class="textblock_header">
+                            <img src="res/logo_light.svg" alt="logo_light" />
+                            <button class="bonus_btn">
+                                <image src="res/gift_outline_28.svg" alt="black gift" class="desktop-image"/>
+                                <image src="res/gift_outline.svg" alt="blue gift" class="mobile-image"/>
+                                <span>Приветственный бонус</span>
+                            </button>
+                        </div>
+                        <div class="divider_line"></div>
+                        <div class="textblock_items">
+                            <div class="item1">
+                                <h3>Продукты</h3>
+                                <div class="item1_container">
+                                    <a href="/">Cloud Servers</a>
+                                    <a href="/">Cloud Storage</a>
+                                    <a href="/">Cloud Containers</a>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <h3>Платформа</h3>
+                                <div class="item2_container">
+                                    <a href="/">Технические характеристики</a>
+                                    <a href="/">Статус сервисов платформы</a>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <h3>Решения</h3>
+                                <div class="item3_container">
+                                    <a href="/">Медиахостинг</a>
+                                    <a href="/">Медицина</a>
+                                    <a href="/">Логистика</a>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <h3>Компания</h3>
+                                <div class="item4_container">
+                                    <a href="/">О компании</a>
+                                    <a href="/">Мероприятия</a>
+                                </div>
+                            </div>
+                            <div class="item5">
+                                <h3>Условия</h3>
+                                <div class="item5_container">
+                                    <a href="/">Калькулятор цен</a>
+                                    <a href="/">Партнерская программа</a>
+                                </div>
+                            </div>
+                            <div class="item6">
+                                <h3>Техподдержка</h3>
+                                <div class="item6_container">
+                                    <a href="/">
+                                        <image src="res/document_text_outline_28.svg" alt="document_text_outline_28"/>
+                                        Документация
+                                    </a>
+                                    <a href="/">
+                                        <image src="res/tech_support.svg" alt="tech_support"/>
+                                        Клиентский портал
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider_line"></div>
+                        <div class="textblock_footer1">
+                            <div class="vk_business">
+                                <img src="res/vk_business.svg" alt="vk_business" />
+                            </div>
+                            <div class="icons">
+                                <button class="icon_btn">
+                                    <image src="res/tg_icon.svg" alt="tg_icon"/>
+                                </button>
+                                <button class="icon_btn">
+                                    <image src="res/vk_icon.svg" alt="vk_icon"/>
+                                </button>
+                                <button class="icon_btn">
+                                    <image src="res/zen_icon.svg" alt="zen_icon"/>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="textblock_footer2">
+                            <span>© VK Cloud, 2024 г.  Все права защищены.</span>
+                            <span>125167, г. Москва, Ленинградский проспект, д. 39, стр. 79</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
