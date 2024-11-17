@@ -1678,6 +1678,17 @@ footer {
         height: 245px;
     }
 
+    .server_picture img {
+        all: unset;
+        padding: 8px;
+    }
+
+    .icon img, .icon2 img {
+        padding: 12px;
+        width: 24px;
+        height: 24px;
+    }
+    
     .header_logo img:nth-of-type(2) { 
         display: none;
     }
@@ -1795,13 +1806,6 @@ footer {
         font-size: 17px;
         line-height: 23.8px;
         margin-left: 38px;
-        text-align: center;
-    }
-    
-    #migration p {
-        width: 344px;
-        height: 143px;
-        margin: 0 16px;
         text-align: center;
     }
     
@@ -2019,11 +2023,6 @@ footer {
         height: 261px;
     }
     
-    .server_picture img {
-        all: unset;
-        padding: 8px;
-    }
-    
     .server_text {
         width: 344px;
         height: 155px;
@@ -2059,12 +2058,6 @@ footer {
         height: 48px;
         order: 1;
         align-self: center;
-    }
-    
-    .icon img, .icon2 img {
-        padding: 12px;
-        width: 24px;
-        height: 24px;
     }
     
     .server_body p {
@@ -2423,4 +2416,13 @@ footer {
     height: 120px;
     color: #000;
     margin: 0 0 0 94px;
+}
+
+@media (max-width: 376px) {
+    #migration p {
+        width: 344px;
+        height: 143px;
+        margin: 0 16px;
+        text-align: center;
+    }
 }
