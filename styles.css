@@ -103,7 +103,7 @@ header {
     border: none;
     border-radius: 12px;
     background-color: #07F;
-    color: #ffffff;
+    color: #fff;
     transition: background-color 100ms ease-out;
 }
 
@@ -171,7 +171,7 @@ header {
     background-color: #07F;
     border: none;
     border-radius: 12px;
-    color: #FFFFFF;
+    color: #FFF;
     transition: background-color 100ms ease-out;
 }
 
@@ -204,13 +204,53 @@ header {
     flex-direction: row;
 }
 
-#migration p {
+.products_title p {
+    width: 616px;
+    height: 84px;
+    color: #7C8A9A;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.server_body p {
+    margin: 12px 36px 36px;
+    width: 360px;
+    height: 72px;
+    color: #7C8A9A;
     font-size: 17px;
     line-height: 23.8px;
-    width: 432px;
+    font-weight: 400;
+}
+
+.net_body p {
+    margin: 12px 36px 36px;
+    width: 250px;
     height: 120px;
-    color: #000;
-    margin: 0 0 0 94px;
+    color: #7C8A9A;
+    font-size: 17px;
+    line-height: 23.8px;
+    font-weight: 400;
+}
+
+.stor_body p {
+    margin: 12px 36px 36px;
+    width: 250px;
+    height: 96px;
+    color: #7C8A9A;
+    font-size: 17px;
+    line-height: 23.8px;
+    font-weight: 400;
+}
+
+.products_title h2 {
+    width: 616px;
+    height: 57px;
+    color: #212121;
+    font-size: 52px;
+    line-height: 57.2px;
+    margin: 0;
 }
 
 #migration h2 {
@@ -292,7 +332,7 @@ header {
 .head_text {
     width: 470px;
     height: 36px;
-    color: #000000;
+    color: #000;
     font-size: 28px;
     line-height: 36.4px;
     margin: 24px 36px 0;
@@ -454,25 +494,6 @@ li::marker {
     gap: 8px;
 }
 
-.products_title h2 {
-    width: 616px;
-    height: 57px;
-    color: #212121;
-    font-size: 52px;
-    line-height: 57.2px;
-    margin: 0;
-}
-
-.products_title p {
-    width: 616px;
-    height: 84px;
-    color: #7C8A9A;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    margin: 0;
-}
-
 .products_container {
     display: grid;
     grid-template-columns: 652px 322px 322px;
@@ -547,16 +568,6 @@ li::marker {
     padding: 16px;
 }
 
-.server_body p {
-    margin: 12px 36px 36px;
-    width: 360px;
-    height: 72px;
-    color: #7C8A9A;
-    font-size: 17px;
-    line-height: 23.8px;
-    font-weight: 400;
-}
-
 .nets {
     display: flex;
     flex-direction: column;
@@ -588,16 +599,6 @@ li::marker {
     line-height: 28px;
 }
 
-.net_body p {
-    margin: 12px 36px 36px;
-    width: 250px;
-    height: 120px;
-    color: #7C8A9A;
-    font-size: 17px;
-    line-height: 23.8px;
-    font-weight: 400;
-}
-
 .storage {
     display: flex;
     flex-direction: column;
@@ -627,16 +628,6 @@ li::marker {
     color: #000;
     font-size: 20px;
     line-height: 28px;
-}
-
-.stor_body p {
-    margin: 12px 36px 36px;
-    width: 250px;
-    height: 96px;
-    color: #7C8A9A;
-    font-size: 17px;
-    line-height: 23.8px;
-    font-weight: 400;
 }
 
 .show-btn {
@@ -900,7 +891,7 @@ li::marker {
 .card1_back {
     position: absolute;
     display: flex;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     backface-visibility: hidden;
@@ -955,7 +946,7 @@ li::marker {
 .card1_text h3 {
     width: 139px;
     height: 56px;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -1127,7 +1118,7 @@ li::marker {
 .card12_3_text h3 {
     width: 146px;
     height: 36px;
-    color: #000000;
+    color: #000;
     font-size: 28px;
     line-height: 36.4px;
     margin: 0;
@@ -1460,7 +1451,7 @@ footer {
 .textblock_items h3 {
     font-size: 24px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
     margin: 0;
 }
 
@@ -1624,6 +1615,15 @@ footer {
     line-height: 25.5px;
     color: #7C8A9A;
     font-weight: 400;
+}
+
+#migration p {
+    font-size: 17px;
+    line-height: 23.8px;
+    width: 432px;
+    height: 120px;
+    color: #000;
+    margin: 0 0 0 94px;
 }
 
 
@@ -1861,7 +1861,7 @@ footer {
     .head_text {
         width: 304px;
         height: 24px;
-        color: #000000;
+        color: #000;
         font-size: 17px;
         line-height: 23.8px;
         margin: 12px 20px 0;
@@ -2089,7 +2089,7 @@ footer {
     }
     
     .net_header h3 {
-        margin: 0 20px 0;
+        margin: 0 20px;
         width: 304px;
         height: 24px;
         font-size: 17px;
