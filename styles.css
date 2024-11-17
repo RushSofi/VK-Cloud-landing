@@ -31,7 +31,7 @@ header {
     justify-content: space-between;
     width: 1440px;
     height: 104px;
-    margin: -8px -8px 0 -8px;
+    margin: -8px -8px 0;
 }
 
 .header_container {
@@ -56,7 +56,7 @@ header {
 .header_logo {
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: #fff;
     width: 177.21px;
     height: 40px;
     gap: 24px;
@@ -75,14 +75,14 @@ header {
     display: flex;
     align-items: center;
     width: 102px;
-    padding: 11px 16px 13px 16px;
+    padding: 11px 16px 13px;
     font-size: 17px;
     line-height: 23.8px;
     gap: 8px;
     background-color: #212121;
     border: none;
     border-radius: 10px;
-    color: #ffffff;
+    color: #fff;
     transition: background-color 100ms ease-out;
 }
 
@@ -97,12 +97,12 @@ header {
 
 .header_register {
     width: 141px;
-    padding: 11px 16px 13px 16px;
+    padding: 11px 16px 13px;
     font-size: 17px;
     line-height: 23.8px;
     border: none;
     border-radius: 12px;
-    background-color: #0077FF;
+    background-color: #07F;
     color: #ffffff;
     transition: background-color 100ms ease-out;
 }
@@ -112,7 +112,7 @@ header {
 }
 
 .header_register:active {
-    background-color: #0077FF;
+    background-color: #07F;
     transition: none;
 }
 
@@ -164,11 +164,11 @@ header {
     align-items: center;
     width: 212px;
     height: 56px;
-    padding: 12px 24px 14px 24px;
+    padding: 12px 24px 14px;
     font-size: 20px;
     line-height: 30px;
     gap: 8px;
-    background-color: #0077FF;
+    background-color: #07F;
     border: none;
     border-radius: 12px;
     color: #FFFFFF;
@@ -180,7 +180,7 @@ header {
 }
 
 .test-btn:active {
-    background-color: #0077FF;
+    background-color: #07F;
     transition: none;
 }
 
@@ -209,7 +209,7 @@ header {
     line-height: 23.8px;
     width: 432px;
     height: 120px;
-    color: #000000;
+    color: #000;
     margin: 0 0 0 94px;
 }
 
@@ -228,7 +228,7 @@ header {
     height: 404px;
     margin-top: 40px;
     margin-left: 174px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: none;
     border-radius: 24px;
 }
@@ -295,13 +295,13 @@ header {
     color: #000000;
     font-size: 28px;
     line-height: 36.4px;
-    margin: 24px 36px 0 36px;
+    margin: 24px 36px 0;
 }
 
 .card_list_section {
     width: 470px;
     height: 160px;
-    padding: 20px 36px 0 36px;
+    padding: 20px 36px 0;
 }
 
 .card_list_section ul {
@@ -348,7 +348,7 @@ li::marker {
 }
 
 .foot_buttons {
-    padding: 12px 36px 24px 36px;
+    padding: 12px 36px 24px;
     display: flex;
     flex-direction: row;
     width: 500px;
@@ -359,7 +359,7 @@ li::marker {
 .leave-btn {
     width: 213px;
     height: 56px;
-    background-color: #0077FF;
+    background-color: #07F;
     border: none;
     border-radius: 12px;
     transition: background-color 100ms ease-out;
@@ -370,7 +370,7 @@ li::marker {
 }
 
 .leave-btn:active {
-    background-color: #0077FF;
+    background-color: #07F;
     transition: none;
 }
 
@@ -379,8 +379,8 @@ li::marker {
     align-items: center;
     width: 165px;
     height: 30px;
-    padding: 12px 24px 14px 24px;
-    color: #FFFFFF;
+    padding: 12px 24px 14px;
+    color: #FFF;
     font-size: 20px;
     line-height: 30px;
 }
@@ -399,7 +399,7 @@ li::marker {
     align-items: center;
     width: 227px;
     height: 30px;
-    padding: 12px 24px 14px 24px;
+    padding: 12px 24px 14px;
     color: #212121;
     font-size: 20px;
     line-height: 30px;
@@ -408,11 +408,11 @@ li::marker {
 
 .full-btn:hover {
     background-color: #F3F4F6;
-    border: 1px solid #0277FF;
+    border: 1px solid #07F;
 }
 
 .full-btn:hover .full_text {
-    color: #0277FF;
+    color: #07F;
 }
 
 .full-btn:active {
@@ -487,7 +487,7 @@ li::marker {
 .servers {
     display: flex;
     flex-direction: row;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
 }
@@ -530,7 +530,7 @@ li::marker {
     margin: 36px 0 0 36px;
     width: 300px;
     height: 56px;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     line-height: 28px;
 }
@@ -548,7 +548,7 @@ li::marker {
 }
 
 .server_body p {
-    margin: 12px 36px 36px 36px;
+    margin: 12px 36px 36px;
     width: 360px;
     height: 72px;
     color: #7C8A9A;
@@ -560,7 +560,7 @@ li::marker {
 .nets {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
 }
@@ -583,13 +583,13 @@ li::marker {
     margin: 36px 0 0 36px;
     width: 174px;
     height: 56px;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     line-height: 28px;
 }
 
 .net_body p {
-    margin: 12px 36px 36px 36px;
+    margin: 12px 36px 36px;
     width: 250px;
     height: 120px;
     color: #7C8A9A;
@@ -601,7 +601,7 @@ li::marker {
 .storage {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
 }
@@ -624,13 +624,13 @@ li::marker {
     margin: 36px 0 0 36px;
     width: 174px;
     height: 56px;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     line-height: 28px;
 }
 
 .stor_body p {
-    margin: 12px 36px 36px 36px;
+    margin: 12px 36px 36px;
     width: 250px;
     height: 96px;
     color: #7C8A9A;
@@ -641,7 +641,7 @@ li::marker {
 
 .show-btn {
     display: grid;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: 1px solid transparent;
     border-radius: 12px;
     grid-area: 2 / 1 / 2 / 4;
@@ -653,14 +653,14 @@ li::marker {
     justify-self: center;
     width: 139px;
     height: 30px;
-    padding: 12px 24px 14px 24px;
-    color: #0077FF;
+    padding: 12px 24px 14px;
+    color: #07F;
     font-size: 20px;
     line-height: 30px;
 }
 
 .show-btn:hover {
-    border: 1px solid #0277FF;
+    border: 1px solid #07F;
 }
 
 .show-btn:active {
@@ -705,7 +705,7 @@ li::marker {
     display: flex;
     width: 396px;
     height: 168px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 1 / 1 / 3 / 3;
@@ -715,7 +715,7 @@ li::marker {
     margin: 8px;
     width: 152px;
     height: 152px;
-    background-color: #000000;
+    background-color: #000;
     border: none;
     border-radius: 16px;
 }
@@ -731,7 +731,7 @@ li::marker {
     width: 212px;
     height: 100px;
     margin: 8px 8px 8px 0;
-    color: #000000;
+    color: #000;
     font-size: 24px;
     line-height: 33.6px;
 }
@@ -819,7 +819,7 @@ li::marker {
     display: flex;
     width: 396px;
     height: 80px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 3 / 1 / 4 / 3;
@@ -855,7 +855,7 @@ li::marker {
     display: flex;
     width: 396px;
     height: 80px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 4 / 1 / 4 / 3;
@@ -884,7 +884,7 @@ li::marker {
     display: flex;
     width: 432px;
     height: 80px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
 }
@@ -933,7 +933,7 @@ li::marker {
     align-items: center;
     width: 48px;
     height: 48px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 16px;
 }
@@ -1052,7 +1052,7 @@ li::marker {
     display: flex;
     width: 432px;
     height: 80px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
 }
@@ -1061,7 +1061,7 @@ li::marker {
     display: flex;
     width: 212px;
     height: 168px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 3 / 2 / 5 / 3;
@@ -1079,7 +1079,7 @@ li::marker {
 .card34_2_text h3 {
     width: 164px;
     height: 60px;
-    color: #000000;
+    color: #000;
     font-size: 28px;
     line-height: 36.4px;
     margin: 0;
@@ -1099,7 +1099,7 @@ li::marker {
     display: flex;
     width: 212px;
     height: 168px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 3 / 3 / 5 / 4;
@@ -1109,7 +1109,7 @@ li::marker {
     display: flex;
     width: 194px;
     height: 168px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 1 / 4 / 3 / 5;
@@ -1147,7 +1147,7 @@ li::marker {
     display: flex;
     width: 194px;
     height: 168px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
     grid-area: 1 / 5 / 3 / 6;
@@ -1157,7 +1157,7 @@ li::marker {
     display: flex;
     width: 396px;
     height: 168px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 24px;
 }
@@ -1195,7 +1195,7 @@ li::marker {
     align-items: center;
     width: 48px;
     height: 48px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     border-radius: 16px;
     margin-top: 16px;
@@ -1211,7 +1211,7 @@ li::marker {
 .card3_container h3 {
     width: 151px;
     height: 112px;
-    color: #000000;
+    color: #000;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -1257,7 +1257,7 @@ li::marker {
 .card3_3_text h3 {
     width: 332px;
     height: 60px;
-    color: #000000;
+    color: #000;
     font-size: 28px;
     line-height: 36.4px;
     margin: 0;
@@ -1280,11 +1280,11 @@ li::marker {
     align-items: center;
     width: 212px;
     height: 56px;
-    padding: 12px 24px 14px 24px;
+    padding: 12px 24px 14px;
     font-size: 20px;
     line-height: 30px;
     gap: 8px;
-    background-color: #0077FF;
+    background-color: #07F;
     border: none;
     border-radius: 12px;
     color: #FFFFFF;
@@ -1296,7 +1296,7 @@ li::marker {
 }
 
 .test_btn:active {
-    background-color: #0077FF;
+    background-color: #07F;
     transition: none;
 }
 
@@ -1318,7 +1318,7 @@ li::marker {
     width: 2244px;
     height: 72px;
     margin-left: -451px;
-    background-color: #0077FF;
+    background-color: #07F;
     gap: 32px;
     white-space: nowrap;
     animation: bounce-marquee 20s ease-in-out infinite;
@@ -1328,7 +1328,7 @@ li::marker {
     height: 35px;
     font-size: 32px;
     line-height: 35.2px;
-    color: #FFFFFF;
+    color: #FFF;
     letter-spacing: calc(32px * -0.015);
 }
 
@@ -1357,7 +1357,7 @@ footer {
     height: 488px;
     border: none;
     border-radius: 36px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     margin: 36px;
 }
 
@@ -1386,7 +1386,7 @@ footer {
     background-color: #F6F7F9;
     border: 1px solid transparent;
     border-radius: 12px;
-    padding: 11px 16px 13px 16px;
+    padding: 11px 16px 13px;
     gap: 8px;
     transition: all 100ms ease-out;
 }
@@ -1412,11 +1412,11 @@ footer {
 
 .bonus_btn:hover {
     background-color: #F3F4F6;
-    border: 1px solid #0277FF;
+    border: 1px solid #07F;
 }
 
 .bonus_btn:hover span {
-    color: #0277FF;
+    color: #07F;
 }
 
 .bonus_btn:active {
@@ -1508,7 +1508,7 @@ footer {
     width: 106px;
     font-size: 24px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
     margin: 0;
 }
 
@@ -1605,7 +1605,7 @@ footer {
     align-items: center;
     width: 22px;
     height: 22px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: none;
     padding: 0;
 }
@@ -1674,10 +1674,10 @@ footer {
     
     .header_enter {
         width: 42px;
-        opacity: 90%;
+        opacity: 0.9;
         font-size: 17px;
         line-height: 17px;
-        color: #ffffff;
+        color: #fff;
         background-color: transparent;
         transition: none;
         padding: 0;
@@ -1690,18 +1690,18 @@ footer {
     .header_enter::after {
         content: "/"; 
         width: 7px;
-        opacity: 90%;
+        opacity: 0.9;
         font-size: 17px;
         line-height: 17px;
-        color: #ffffff;
+        color: #fff;
     }
     
     .header_register {
         width: 109px;
-        opacity: 90%;
+        opacity: 0.9;
         font-size: 17px;
         line-height: 17px;
-        color: #ffffff;
+        color: #fff;
         background-color: transparent;
         transition: none;
         padding: 0;
@@ -1757,7 +1757,7 @@ footer {
     
     .test-btn {
         width: 304px;
-        padding: 12px 70px 14px 70px;
+        padding: 12px 70px 14px;
     }
     
     .banner-image {
@@ -1785,7 +1785,7 @@ footer {
     #migration p {
         width: 344px;
         height: 143px;
-        margin: 0 16px 0 16px;
+        margin: 0 16px;
         text-align: center;
     }
     
@@ -1794,7 +1794,7 @@ footer {
         line-height: 35.2px;
         width: 344px;
         height: 105px;
-        margin: 0 16px 0 16px;
+        margin: 0 16px;
         text-align: center;
     }
     
@@ -1802,7 +1802,7 @@ footer {
         flex-direction: column;
         width: 344px;
         height: 656px;
-        margin: 0 16px 0 16px;
+        margin: 0 16px;
         border-radius: 20px;
     }
     
@@ -1829,7 +1829,7 @@ footer {
         display: inline-block;
         height: 17px;
         padding: 5px 8px;
-        color: #000000;
+        color: #000;
         font-size: 12px;
         line-height: 16.8px;
     }
@@ -1864,13 +1864,13 @@ footer {
         color: #000000;
         font-size: 17px;
         line-height: 23.8px;
-        margin: 12px 20px 0 20px;
+        margin: 12px 20px 0;
     }
     
     .card_list_section {
         width: 344px;
         height: 163px;
-        padding: 12px 20px 0 20px;
+        padding: 12px 20px 0;
     }
     
     .card_list_section ul {
@@ -1908,12 +1908,12 @@ footer {
     .card_footer {
         width: 344px;
         height: 128px;
-        padding: 24px 0 0 0;
+        padding: 24px 0 0;
     }
     
     .foot_buttons {
         padding: 0;
-        margin: 0 20px 20px 20px;
+        margin: 0 20px 20px;
         flex-direction: column;
         width: 304px;
         height: 108px;
@@ -1928,7 +1928,7 @@ footer {
     .leave_text {
         width: 141px;
         height: 24px;
-        padding: 11px 81.5px 13px 81.5px;
+        padding: 11px 81.5px 13px;
         font-size: 17px;
         line-height: 23.8px;
     }
@@ -1942,7 +1942,7 @@ footer {
     .full_text {
         width: 193px;
         height: 24px;
-        padding: 11px 55.5px 13px 55.5px;
+        padding: 11px 55.5px 13px;
         font-size: 17px;
         line-height: 23.8px;
     }
@@ -1951,7 +1951,7 @@ footer {
         width: 328px;
         height: 245px;
         order: 1;
-        padding: 8px 8px 0 8px;
+        padding: 8px 8px 0;
     }
 
     .card_illustration img {
@@ -2066,7 +2066,7 @@ footer {
     }
     
     .server_body p {
-        margin: 12px 20px 20px 20px;
+        margin: 12px 20px 20px;
         width: 304px;
         height: 63px;
         font-size: 15px;
@@ -2089,7 +2089,7 @@ footer {
     }
     
     .net_header h3 {
-        margin: 0 20px 0 20px;
+        margin: 0 20px 0;
         width: 304px;
         height: 24px;
         font-size: 17px;
@@ -2099,7 +2099,7 @@ footer {
     }
     
     .net_body p {
-        margin: 12px 20px 20px 20px;
+        margin: 12px 20px 20px;
         width: 304px;
         height: 84px;
         font-size: 15px;
@@ -2123,7 +2123,7 @@ footer {
     }
     
     .storage_header h3 {
-        margin: 0 20px 0 20px;
+        margin: 0 20px;
         width: 304px;
         height: 24px;
         font-size: 17px;
@@ -2133,7 +2133,7 @@ footer {
     }
     
     .stor_body p {
-        margin: 12px 20px 20px 20px;
+        margin: 12px 20px 20px;
         width: 304px;
         height: 63px;
         font-size: 15px;
@@ -2149,7 +2149,7 @@ footer {
     
     .show_text {
         justify-self: center;
-        padding: 12px 101.5px 14px 101.5px;
+        padding: 12px 101.5px 14px;
     }
     
     #reliability {
@@ -2200,7 +2200,7 @@ footer {
     .footer_textblock {
         width: 304px;
         height: 1197.8px;
-        margin: 24px 20px 36px 20px;
+        margin: 24px 20px 36px;
         padding: 0;
     }
     
@@ -2230,7 +2230,7 @@ footer {
         height: 23px;
         font-size: 15px;
         line-height: 22.5px;
-        color: #0077FF;
+        color: #07F;
     }
     
     .bonus_btn img {
@@ -2252,7 +2252,7 @@ footer {
     }
     
     .bonus_btn:hover span {
-        color: #0077FF;
+        color: #07F;
     }
     
     .bonus_btn:active {
@@ -2261,7 +2261,7 @@ footer {
     }
     
     .bonus_btn:active span{
-        color: #0077FF;
+        color: #07F;
     }
     
     .divider_line {
@@ -2402,7 +2402,7 @@ footer {
         align-items: center;
         width: 22px;
         height: 22px;
-        background-color: #FFFFFF;
+        background-color: #FFF;
         border: none;
         padding: 0;
     }
