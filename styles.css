@@ -1786,7 +1786,7 @@ footer {
     .banner-image {
         width: 304px;
         height: 260px;
-        margin: 0px;
+        margin: 0;
     }
 
     #migration {
@@ -2151,13 +2151,8 @@ footer {
         display: none;
     }
 
-    .spacing {
-        display: none;
-    }
-
     .spacing2 {
-        width: 376px;
-        height: 72px;
+        display: none;
     }
     
     .visible_string {
@@ -2238,6 +2233,12 @@ footer {
         border: none;
     }
     
+    .textblock_footer2 span {
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: center;
+    }
+
     .bonus_btn:hover span {
         color: #07F;
     }
@@ -2400,12 +2401,6 @@ footer {
         width: 304px;
         height: 106px;
         gap: 16px;
-    }
-    
-    .textblock_footer2 span {
-        font-size: 15px;
-        line-height: 22.5px;
-        text-align: center;
     }
 }
 
