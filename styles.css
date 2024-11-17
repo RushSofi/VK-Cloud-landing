@@ -762,16 +762,6 @@ li::marker {
     gap: 10px;
 }
 
-.card3_container .card2_text h3 {
-    width: 167px;
-    height: 56px;
-    color: #000000;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    margin: 0;
-}
-
 .cluster2 {
     display: flex;
     flex-direction: column;
@@ -1278,7 +1268,7 @@ li::marker {
     background-color: #07F;
     border: none;
     border-radius: 12px;
-    color: #FFFFFF;
+    color: #FFF;
     transition: background-color 100ms ease-out;
 }
 
@@ -1357,7 +1347,7 @@ footer {
     flex-direction: column;
     width: 1240px;
     height: 422px;
-    margin: 0 28px 2px 28px;
+    margin: 0 28px 2px;
     padding: 32px 36px;
     gap: 32px;
 }
@@ -1561,6 +1551,16 @@ footer {
 
 .item6 h3{
     width: 176px;
+}
+
+.card3_container .card2_text h3 {
+    width: 167px;
+    height: 56px;
+    color: #000;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .item6_container a {
