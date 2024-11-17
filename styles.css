@@ -253,6 +253,15 @@ header {
     margin: 0;
 }
 
+.rel_container h2 {
+    width: 569px;
+    height: 57px;
+    margin: 0 0 0 336px;
+    color: #212121;
+    font-size: 52px;
+    line-height: 57.2px;
+}
+
 #migration h2 {
     font-size: 52px;
     line-height: 57.2px;
@@ -671,15 +680,6 @@ li::marker {
     width: 1240px;
     height: 569px;
     margin-left: 100px;
-}
-
-.rel_container h2 {
-    width: 569px;
-    height: 57px;
-    margin: 0 0 0 336px;
-    color: #212121;
-    font-size: 52px;
-    line-height: 57.2px;
 }
 
 .rel_cards {
@@ -1317,9 +1317,11 @@ li::marker {
     0% {
       transform: translateX(-353px);
     }
+
     50% {
       transform: translateX(451px);
     }
+
     100% {
       transform: translateX(-353px);
     }
@@ -1615,15 +1617,6 @@ footer {
     line-height: 25.5px;
     color: #7C8A9A;
     font-weight: 400;
-}
-
-#migration p {
-    font-size: 17px;
-    line-height: 23.8px;
-    width: 432px;
-    height: 120px;
-    color: #000;
-    margin: 0 0 0 94px;
 }
 
 
@@ -2420,4 +2413,13 @@ footer {
         line-height: 22.5px;
         text-align: center;
     }
+}
+
+#migration p {
+    font-size: 17px;
+    line-height: 23.8px;
+    width: 432px;
+    height: 120px;
+    color: #000;
+    margin: 0 0 0 94px;
 }
